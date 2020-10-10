@@ -1,0 +1,11 @@
+coc-
+
+tailwindcss
+prettier
+marketplace
+lists
+eslint
+vetur
+tsserver
+python
+json
