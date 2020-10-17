@@ -9,7 +9,7 @@ Plug 'djoshea/vim-autoread'
 " UI
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 
 " Misc
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

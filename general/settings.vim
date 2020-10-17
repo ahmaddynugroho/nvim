@@ -1,8 +1,8 @@
 " set leader key
 let g:mapleader = ","
 
-colorscheme nord
-let g:airline_theme = 'minimalist'      " Minimalist Airline theme
+colorscheme gruvbox
+let g:airline_theme='gruvbox'
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
