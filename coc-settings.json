@@ -10,5 +10,7 @@
   ],
 
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true
+  "python.linting.pylintEnabled": true,
+
+  "tailwindCSS.trace.server": "verbose"
 }

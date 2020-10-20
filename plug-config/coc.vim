@@ -135,6 +135,8 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
 " Manage extensions.
 nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
+" open explorer
+nnoremap <leader>e :CocCommand explorer<cr>
 " Show commands.
 nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 " Find symbol of current document.
@@ -151,7 +153,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 " Coc extensions
 let g:coc_global_extensions = [
   \ 'coc-vimlsp',
-  \ 'coc-tailwindcss',
   \ 'coc-prettier',
   \ 'coc-marketplace',
   \ 'coc-lists',
