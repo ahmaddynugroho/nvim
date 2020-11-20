@@ -1,7 +1,6 @@
 " set leader key
 let g:mapleader = ","
 
-colorscheme gruvbox
 let g:airline_theme='gruvbox'
 
 syntax enable                           " Enables syntax highlighing

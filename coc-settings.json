@@ -6,11 +6,12 @@
     "vue",
     "php",
     "html",
-    "json"
+    "json",
+    "dart"
   ],
 
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-
-  "tailwindCSS.trace.server": "verbose"
+  "tailwindCSS.trace.server": "verbose",
+  "html.autoClosingTags": true
 }

@@ -1,4 +1,5 @@
-nnoremap <leader>n o<cr><cr><esc>ka
+nnoremap <leader>n /<++><cr>ca<
+nnoremap <leader><leader>n a<++><esc>
 
 " Comment html, javascript
 nnoremap <leader>ch ^i<!-- <esc>A --><esc>
@@ -9,6 +10,7 @@ nnoremap <leader>f :Files<cr>
 nnoremap <leader>g :GFiles<cr>
 nnoremap <leader>r :Rg<cr>
 nnoremap <leader>l :Lines<cr>
+nnoremap <leader>b :Buffers<cr>
 
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -22,3 +24,4 @@ nnoremap <C-H> <C-W><C-H>
 
 " super-duper-fast macros activation with name 'w'!
 nnoremap <leader>w @w
+nnoremap <leader>e @e
