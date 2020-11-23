@@ -25,3 +25,7 @@ nnoremap <C-H> <C-W><C-H>
 " super-duper-fast macros activation with name 'w'!
 nnoremap <leader>w @w
 nnoremap <leader>e @e
+
+" vim-easymotion 
+map s <Plug>(easymotion-s)
+map <SPACE> <Plug>(easymotion-s2)

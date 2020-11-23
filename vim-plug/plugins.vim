@@ -10,6 +10,7 @@ Plug 'mattn/emmet-vim'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'rust-lang/rust.vim'
 Plug 'vlime/vlime', {'rtp': 'vim/'}
+Plug 'easymotion/vim-easymotion'
 
 " UI
 Plug 'vim-airline/vim-airline'
