@@ -27,5 +27,6 @@ nnoremap <leader>w @w
 nnoremap <leader>e @e
 
 " vim-easymotion 
-map s <Plug>(easymotion-s)
-map <SPACE> <Plug>(easymotion-s2)
+map s <Plug>(easymotion-f)
+map S <Plug>(easymotion-F)
+map <space> <Plug>(easymotion-overwin-f2)
