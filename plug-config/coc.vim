@@ -155,7 +155,7 @@ let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-prettier',
   \ 'coc-marketplace',
-  \ 'coc-list',
+  \ 'coc-lists',
   \ 'coc-explorer',
   \ 'coc-eslint',
   \ 'coc-emmet',
