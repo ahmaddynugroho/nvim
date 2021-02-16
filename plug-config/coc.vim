@@ -134,7 +134,7 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " Show all diagnostics.
 " nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
 " Manage extensions.
-" nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
+nnoremap <silent><nowait> <leader><leader>e  :<C-u>CocList extensions<cr>
 " open explorer
 nnoremap <leader>e :CocCommand explorer<cr>
 " Show commands.
@@ -152,15 +152,18 @@ nnoremap <leader>e :CocCommand explorer<cr>
 
 " Coc extensions
 let g:coc_global_extensions = [
-  \ 'coc-vimlsp',
+  \ 'coc-snippets',
   \ 'coc-prettier',
   \ 'coc-marketplace',
-  \ 'coc-lists',
+  \ 'coc-list',
   \ 'coc-explorer',
   \ 'coc-eslint',
+  \ 'coc-emmet',
   \ 'coc-vetur',
   \ 'coc-tsserver',
+  \ 'coc-tailwind-intellisense',
+  \ 'coc-rust-analyzer',
   \ 'coc-python',
+  \ 'coc-powershell',
   \ 'coc-json',
-  \ 'coc-rust-analyzer'
   \ ]

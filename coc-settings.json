@@ -12,6 +12,25 @@
 
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "tailwindCSS.trace.server": "verbose",
-  "html.autoClosingTags": true
+  "html.autoClosingTags": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "trailingComma": "all"
+    }
+  },
+  "vetur.completion.autoImport": true
 }
