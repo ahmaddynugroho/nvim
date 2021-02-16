@@ -1,7 +1,4 @@
-" set leader key
-let g:mapleader = ","
-
-let g:airline_theme='gruvbox'
+let g:mapleader = ","                   " Set leader key
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
@@ -38,3 +35,5 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 "set autochdir                           " Your working directory will always be the same as your working directory
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+
+filetype plugin on                      " Activate filetype for plugins
