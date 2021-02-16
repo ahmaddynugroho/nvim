@@ -1,9 +1,3 @@
-" NEVER INSTALL VIM-POLYGLOT!
-" NEVER INSTALL VIM-POLYGLOT!
-" NEVER INSTALL VIM-POLYGLOT!
-" NEVER INSTALL VIM-POLYGLOT!
-" NEVER INSTALL VIM-POLYGLOT!
-
 call plug#begin()
 
 " File coding helper plugins
@@ -19,6 +13,7 @@ Plug 'tpope/vim-surround'
 " Language
 Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
+Plug 'sheerun/vim-polyglot'
 
 " UI
 Plug 'vim-airline/vim-airline'
