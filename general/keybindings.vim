@@ -31,7 +31,7 @@ nnoremap <silent> <Leader>> :exe "vertical resize " . (winwidth(0) * 3/2)<CR>
 nnoremap <silent> <Leader>< :exe "vertical resize " . (winwidth(0) * 2/3)<CR>
 
 " Easyly navigate between buffers and marks
-nnoremap <leader><leader>l :ls<cr>:b<space>
+nnoremap <leader>l :ls<cr>:b<space>
 nnoremap <leader>m :marks<cr>:norm `
 
 " Shinra tensei
