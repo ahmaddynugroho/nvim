@@ -6,9 +6,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'djoshea/vim-autoread'
 Plug 'yggdroot/indentline'
 Plug 'terroo/vim-auto-markdown'
-Plug 'preservim/nerdcommenter'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-scriptease'
+Plug 'suy/vim-context-commentstring'
 
 " Language
 Plug 'rust-lang/rust.vim'
