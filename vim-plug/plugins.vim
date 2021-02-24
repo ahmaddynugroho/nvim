@@ -10,6 +10,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-scriptease'
+Plug 'tpope/vim-fugitive'
 Plug 'suy/vim-context-commentstring'
 
 " Language
