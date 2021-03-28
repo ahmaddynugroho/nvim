@@ -1,1 +1,1 @@
-let g:polyglot_disabled = ['vue']
+let g:polyglot_disabled = ['vue', 'rust', 'php']
