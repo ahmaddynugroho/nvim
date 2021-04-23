@@ -1,17 +1,26 @@
-" General settings
-so C:/Users/Administrator/AppData/Local/nvim/general/settings.vim
-so C:/Users/Administrator/AppData/Local/nvim/general/keybindings.vim
+" Vim Commentary
+xmap gc  <Plug>VSCodeCommentary
+nmap gc  <Plug>VSCodeCommentary
+omap gc  <Plug>VSCodeCommentary
+nmap gcc <Plug>VSCodeCommentaryLine
 
-" Plugin settings
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/coc.vim
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/nerdcommenter.vim
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/auto-pairs.vim
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/vim-polyglot.vim
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/vim-fugitive.vim
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/indentLine.vim
+" Quick Scope
+highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
 
-" Load plugins
-so C:/Users/Administrator/AppData/Local/nvim/vim-plug/plugins.vim
+" Plugins
+call plug#begin()
+Plug 'unblevable/quick-scope'
+Plug 'asvetliakov/vim-easymotion'
+call plug#end()
 
-" Colorcheme
-so C:/Users/Administrator/AppData/Local/nvim/plug-config/vim-afterglow.vim
+" Plugin Settings
+nmap <space> <Plug>(easymotion-s2)
+
+" Keybinds
+let mapleader = ','
+nnoremap <leader>w @w                               " Fast macro activation
+nnoremap <leader>e @e
+nnoremap <leader>r @r
+nnoremap <leader>n /<++><cr>ca<                     " Placeholder bruh
+nnoremap <leader><leader>n a<++><esc>
