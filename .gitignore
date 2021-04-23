@@ -1,5 +1,1 @@
 plugged/*
-!plugged/vim-context-commentstring/
-
-plugged/vim-context-commentstring/*
-!plugged/vim-context-commentstring/autoload/

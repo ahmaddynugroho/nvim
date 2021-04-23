@@ -12,6 +12,7 @@ highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=und
 call plug#begin()
 Plug 'unblevable/quick-scope'
 Plug 'asvetliakov/vim-easymotion'
+Plug 'jeetsukumaran/vim-indentwise'
 call plug#end()
 
 " Plugin Settings
